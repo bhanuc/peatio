@@ -23,7 +23,7 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method     = :smtp
   config.action_mailer.smtp_settings       = { address: 'localhost', port: 1025 }
-  config.action_mailer.default_url_options = { host: ENV.fetch('URL_HOST') }
+  config.action_mailer.default_url_options = { host: '159.89.170.35' }
 
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
